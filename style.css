@@ -20,7 +20,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    transform: perspective(9px) rotateY(5deg);
+    transform: perspective(9px) rotateY(550deg);
     transition: transform 0.45s;
 }
 
@@ -78,7 +78,7 @@ button:hover {
     margin-top: 10px;
 }
 
-.popup {
+.popp {
     display: none;
     position: fixed;
     top: 0;
@@ -108,7 +108,7 @@ button:hover {
 }
 
 #resultadoGorjeta {
-    font-size: 18px;
+    font-size: 8px;
     font-weight: bold;
     color: #333;
     margin-top: 20px;
@@ -161,7 +161,7 @@ select {
 
 #btnLimpar {
     margin-right: 110px;
-    margin-left: 15px;
+    margin-left: 150px;
 }
 
 #lblPorcentagemGorjeta {
